@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+
+        <img src="Imagen/logo2.png" alt="logo">
+
+
+        <nav>
+            <ul id="menu" class="menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contactos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>contacto</h1>
+        <form class="contacto-formulario">
+            <div class="formulario-grupo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <div class="formulario-grupo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="formulario-grupo">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+            </div>
+            <div class="formulario-grupo1">
+                <label for="terminos-condiciones">Acepto los términos y condiciones</label>
+                <input type="checkbox" id="terminos-condiciones">
+                <input type="submit" value="enviar" hidden>
+                
+            </div>
+           
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2023 transporte y mudanzas. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>
