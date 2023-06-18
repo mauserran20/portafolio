@@ -23,16 +23,12 @@ header>a img{
 
 .menu {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    padding: 8px;
-    padding-inline-end: 50px;
+    /* justify-content: flex-start; */
+    padding: 50px;
+    padding-inline-end: 20px;
     list-style: none;
 
-    /* display: flex;
-    justify-content: center;
-     */
+   
 }
 
 
