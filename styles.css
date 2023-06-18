@@ -112,6 +112,11 @@ footer {
 
 }
 
+.butt{
+    display: flex;
+    justify-content: center;
+}
+
 /* SLIDER INICIO */
 .slider-frame {
     width: 1000px;
