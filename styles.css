@@ -17,7 +17,7 @@ a {
     color: rgb(0, 0, 0);
 }
 
-header>a img{
+header>a img {
     width: 150px;
 }
 
@@ -28,7 +28,7 @@ header>a img{
     padding-inline-end: 20px;
     list-style: none;
 
-   
+
 }
 
 
@@ -100,7 +100,7 @@ footer {
     background-color: #2794fa1b;
     padding: 10px;
     margin: 10px;
-   
+
 }
 
 .pre {
@@ -108,7 +108,7 @@ footer {
 
 }
 
-.butt{
+.butt {
     display: flex;
     justify-content: center;
 }
@@ -320,11 +320,12 @@ button {
     display: flex;
     justify-content: center;
 }
+
 /* mapa */
-#wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3{
+#wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3 {
     display: inline;
-    
-    
+
+
 }
 
 /*CON BUTTON*/
@@ -345,11 +346,15 @@ input[type="submit"] {
 
 
 @media (max-width: 500px) {
-    
-    .menu{
+
+    .menu {
         flex-wrap: wrap;
         gap: 10px;
+        padding: 10px; 
+        padding-inline-end: 10px;
+        list-style: none;
     }
+
     .contacto-formulario {
         max-width: 150px;
         margin: 0 auto;
@@ -398,7 +403,7 @@ input[type="submit"] {
 
 /* Estilos específicos para tabletas */
 @media (min-width: 500px) and (max-width: 1023px) {
-    
+
     .servicios {
         padding-inline-start: 0%;
         padding-inline-end: 0%;
