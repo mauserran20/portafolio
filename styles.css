@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0;
     padding: 0;
@@ -106,6 +104,10 @@ footer {
     background-color: #2794fa1b;
     padding: 10px;
     margin: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 .pre {
@@ -188,6 +190,7 @@ button {
     /* padding-inline-start: 20%;
     padding-inline-end: 20%; */
 }
+
 .resena {
     width: 200px;
     margin: 20px;
@@ -244,17 +247,22 @@ button {
 .contacto-formulario {
     max-width: 300px;
     margin: 0 auto;
+
+
 }
 
 .formulario-grupo {
     margin-bottom: 20px;
+
 }
 
 .formulario-grupo label {
     display: block;
     margin-bottom: 5px;
     font-weight: bold;
+
 }
+
 
 .formulario-grupo input,
 .formulario-grupo textarea {
@@ -279,6 +287,7 @@ button {
 .s_cont {
     display: flex;
     justify-content: center;
+
 
 }
 
@@ -336,7 +345,7 @@ input[type="submit"] {
         max-width: 150px;
         margin: 0 auto;
     }
-   
+
     header>img {
         width: 50px;
     }
@@ -351,7 +360,7 @@ input[type="submit"] {
     .r_cont {
         flex-wrap: wrap;
         padding: 10px;
-        
+
     }
 
     .c_cont {
@@ -380,7 +389,7 @@ input[type="submit"] {
 
 /* Estilos específicos para tabletas */
 @media (min-width: 500px) and (max-width: 1023px) {
-   
+
     .servicios {
         padding-inline-start: 0%;
         padding-inline-end: 0%;
