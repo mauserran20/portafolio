@@ -18,7 +18,7 @@ a {
 }
 
 header>a img{
-    width: 100px;
+    width: 150px;
 }
 
 .menu {
@@ -349,6 +349,11 @@ input[type="submit"] {
 
 
 @media (max-width: 500px) {
+    
+    .menu{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
     .contacto-formulario {
         max-width: 150px;
         margin: 0 auto;
@@ -397,7 +402,7 @@ input[type="submit"] {
 
 /* Estilos específicos para tabletas */
 @media (min-width: 500px) and (max-width: 1023px) {
-
+    
     .servicios {
         padding-inline-start: 0%;
         padding-inline-end: 0%;
