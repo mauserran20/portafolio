@@ -332,6 +332,11 @@ input[type="submit"] {
 
 
 @media (max-width: 500px) {
+    .contacto-formulario {
+        max-width: 150px;
+        margin: 0 auto;
+    }
+   
     header>img {
         width: 50px;
     }
@@ -375,10 +380,7 @@ input[type="submit"] {
 
 /* Estilos específicos para tabletas */
 @media (min-width: 500px) and (max-width: 1023px) {
-    .contacto-formulario {
-        max-width: 150px;
-        margin: 0 auto;
-    }
+   
     .servicios {
         padding-inline-start: 0%;
         padding-inline-end: 0%;
